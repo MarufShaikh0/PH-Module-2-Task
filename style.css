@@ -1,0 +1,251 @@
+
+
+
+/*  Header Start  */
+
+.header-container{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0.5rem 1.5rem;
+}
+
+header{
+     position: sticky;
+     top: 0;
+     z-index: 1000;
+     background-color: #FFFFFF;    
+}
+.header-left .header-title a{
+     color: rgba(177, 42, 42, 0.733);
+     font-weight: 700;
+}
+.header-left .header-title a:hover{
+     color: gray;
+     text-decoration: underline;
+}
+.nav-item-conteiner{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 1rem;
+     align-items: center;
+}
+.nav-item{
+     list-style: none;
+}
+.nav-item-conteiner .nav-item .nav-item-link{
+     color: black;
+     font-size: 1.5rem;
+     font-weight: 400;
+     text-decoration: none;
+}
+.nav-item-conteiner .nav-item .nav-item-link:hover{
+     color: gray;
+     text-decoration: underline;
+}
+/* Header End  */
+/* Common Css Start */
+body{
+     min-height: 100vh;
+     font-family: "Roboto", sans-serif;
+}
+.container{
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+}
+.title{
+     text-align: center;
+     background-color: tomato;
+     padding: 1rem ;
+     border-radius: 20px;
+     /* margin: 0 auto; */
+     width: 25%;
+     color: white;
+     cursor: pointer; 
+}
+.title:hover{
+     color: rgb(43, 42, 40); 
+ }
+/*  Common Css End */
+
+
+/*  Task-1 Start */
+.task-1{
+     text-align: justify;
+}
+.External-b{
+     font-weight: bold;
+     background-color: tomato;
+     
+}
+.External{
+     background-color: burlywood;
+}
+span{
+     font-weight:600;
+     
+}
+/* Task-1  End */
+
+/*  Task-2 Start */
+.text-color{
+     color: chocolate;
+}
+
+.align{
+     text-align: center;
+}
+.font-size{
+     font-size: .5rem;
+}
+.font-f{
+     font-family: "Dancing Script", cursive;
+}
+.font-f1{
+     font-family: "Galada", cursive;
+}
+.font-f2{
+     font-family: "Stick", sans-serif;
+}
+/* Task-2  End */
+
+/*  Task-3 Start */
+
+.t3a{
+     background-color: tomato;
+     border: 5px solid gray;
+     border-radius: 5px;
+     text-align: justify;
+     padding: 10px;
+}
+.t3a1{
+     background-color: grey;
+     border: 5px solid tomato;
+     border-radius: 5px;
+     text-align: justify;
+     padding: 10px;
+}
+
+#id{
+     background-color: tomato;
+     border: 5px solid gray;
+     padding: 5px;
+}
+.class{
+     background-color: gray;
+     border: 5px solid tomato;
+     padding: 5px;
+}
+/*  Task-3 End */
+
+/* Task-4 Start */
+
+.div-1{
+     background-color: tomato;
+     padding: 10px;
+     background-image: url('./Image/bg-image-1.png');
+     background-repeat: no-repeat;
+     background-position: left;
+     background-size: contain;
+}
+.div-2{
+     background-color: bisque;
+     padding: 10px;
+     background-image: url('./Image/img-1.jpg');
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: right;
+}
+
+.section-1{
+     background-color: chocolate;
+     padding: 10px;
+     background-image: url('./Image/bg-image-2.png'),url('./Image/img-1.jpg');
+     background-repeat: no-repeat;
+     background-position: left,right;
+     background-size: contain;
+}
+.section-2{
+     background-color:pink ;
+     padding: 10px;
+}
+/* Task-4 End */
+
+/*  Task-5 Start */
+
+.n-div-1{
+     width: 200px;
+     height: 200px;
+     background-color: tomato;
+     padding: 15px;
+     border: 10px solid black;
+     margin-bottom: 20px;
+     border-radius: 10px;
+
+}
+.n-div-2{
+     width: 200px;
+     height: 200px;
+     background-color: green;
+     padding: 15px;
+     border: 10px solid tomato;
+     margin-bottom: 30px;
+     box-shadow: 10px 10px 5px red;
+
+}
+
+.p-1{
+     color: tomato;
+     background-color: black;
+}
+
+.img{
+     width: 300px;
+}
+
+.a-5{
+     text-decoration: none;
+     background-color: tomato;
+     padding: 10px;
+     margin: 10px;
+     display: inline-block;
+     font-size: 1.5rem;
+     color: black;
+     border-radius: 10px;
+}
+
+.tp-5{
+     background-color: tomato;
+     padding: 10px;
+     text-align: justify;
+     border: 5px solod tomato;
+     border-radius: 5px;
+}
+.tp-5a{
+     background-color: yellow;
+     padding: 10px;
+     text-align: justify;
+     border: 5px solod tomato;
+     border-radius: 5px;
+     visibility: hidden;
+}
+.tp-5b{
+     background-color: green;
+     padding: 10px;
+     text-align: justify;
+     border: 5px solod tomato;
+     border-radius: 5px;
+     /* display: none; */
+}
+
+
+
+/*  Task-5 End */
+
+
+
+
+
+
